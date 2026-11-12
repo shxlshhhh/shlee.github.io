@@ -1,18 +1,18 @@
 /* Public portfolio content. Replace contact placeholders before publishing. */
 const PROFILE = {
-  email: '', // e.g. 'hello@example.com' (leave blank until ready)
-  github: '', // e.g. 'https://github.com/your-username'
-  linkedin: '' // e.g. 'https://www.linkedin.com/in/your-profile/'
+  email: '', // e.g. 'tmdgus1227@gmail.com' (leave blank until ready)
+  github: '', // e.g. 'https://github.com/shxlshhhh'
+  linkedin: '' // e.g. 'https://www.linkedin.com/in/shxlsh/'
 };
 const translations = {
   ko: {
     skip:'본문으로 이동',navAbout:'Overview',navResearch:'Research',navSkills:'Technology',navOutputs:'Publications & IP',navContact:'Contact',
-    heroEyebrow:'BIOMEDICAL RESEARCH · PORTFOLIO',heroTitle:'생물학적 발견을<br><em>치료 가능성</em>으로.',heroDesc:'핵산 치료제와 골관절염 연구를 중심으로, 분자 수준의 가설을 실험적 근거로 연결하는 바이오의약품 연구자입니다.',explore:'연구 살펴보기',contactMe:'연락하기',scroll:'스크롤하여 더 알아보기',
-    aboutTitle:'연구 소개<span class="accent">.</span>',aboutLead:'기초 생물학적 질문에서 출발해, 실험 모델 구축과 효능 검증을 거쳐 치료 전략의 가능성을 탐색합니다.',aboutBody:'세포 기반 기능 평가, 분자생물학적 분석, 동물 질환 모델, 데이터 해석 및 과학 문서 작성에 걸친 연구 경험을 보유하고 있습니다. 연구의 재현성과 명확한 근거 제시를 중요하게 생각합니다.',fact1:'핵산 치료제 연구',fact2:'질환 모델 기반 평가',fact3:'중개 연구 및 데이터 분석',
-    researchTitle:'연구 프로젝트<span class="accent">.</span>',researchIntro:'공개 가능한 범위에서 정리한 주요 연구 분야와 담당 업무입니다.',p1cat:'핵산 기반 치료제',p1title:'Antisense Oligonucleotide Research',p1desc:'miRNA 표적 ASO의 세포 수준 활성 및 질환 관련 표현형을 평가하고, 실험 데이터를 기반으로 치료 가능성을 탐색했습니다.',p2cat:'저분자 후보물질 평가',p2title:'Signaling Pathway Modulation',p2desc:'신호전달 경로 조절 후보물질의 세포 기반 활성을 reporter assay, 유전자 발현 및 단백질 분석으로 평가했습니다.',p3cat:'올리고뉴클레오타이드 플랫폼',p3title:'RNA-Targeting Platform Evaluation',p3desc:'올리고뉴클레오타이드의 설계 변수에 따른 표적 억제 활성을 비교하고, 구조–활성 관계를 평가했습니다.',p4cat:'골관절염 중개 연구',p4title:'Osteoarthritis Disease Models',p4desc:'연골세포 및 골관절염 모델에서 질환 관련 분자 지표와 표현형을 분석하고 실험 설계 및 효능 평가에 참여했습니다.',
-    skillsTitle:'연구 기술<span class="accent">.</span>',skillsIntro:'실험 수행부터 데이터 해석 및 과학적 커뮤니케이션까지.',s1title:'세포 및 분자생물학',s2title:'기능 및 표현형 분석',s3title:'비임상 연구',s4title:'연구 문서 및 커뮤니케이션',
-    outputsTitle:'논문 및 지식재산<span class="accent">.</span>',outputsIntro:'공개된 서지 정보만 추가할 수 있도록 구성한 영역입니다.',pubTitle:'학술 논문',pubDesc:'공개된 논문의 제목, 학술지, 연도, DOI를 이곳에 추가하세요.',ipTitle:'특허 및 IP',ipDesc:'공개된 특허의 명칭, 공개번호, 기여 내용을 이곳에 추가하세요.',verify:'공개 정보 확인 후 업데이트',
-    contactTitle:'새로운 연구의<br><em>연결을 기다립니다.</em>',contactDesc:'연구 협업 및 전문적인 교류에 관한 문의를 환영합니다.',emailLabel:'이메일 주소 설정하기',githubLabel:'프로필 링크 설정하기',linkedinLabel:'프로필 링크 설정하기',rights:'All rights reserved.',backTop:'맨 위로 ↑'
+    heroEyebrow:'RESEARCH SCIENTIST · PORTFOLIO',heroTitle:'From Molecular Mechanisms<br><em>to Preclinical Drug Development</em>',heroDesc:'세포 및 동물모델을 활용한 질환 기전 연구와 신약 후보물질의 효능평가 경험을 보유한 생명과학 연구자입니다.',explore:'연구 살펴보기',contactMe:'연락하기',scroll:'스크롤하여 더 알아보기',
+    aboutTitle:'연구 소개',aboutLead:'기초 생물학적 질문에서 출발해, 실험 모델 구축과 효능 검증을 거쳐 치료 전략의 가능성을 탐색합니다.',aboutBody:'세포 기반 기능 평가, 분자생물학적 분석, 동물 질환 모델, 데이터 해석 및 과학 문서 작성에 걸친 연구 경험을 보유하고 있습니다. 연구의 재현성과 명확한 근거 제시를 중요하게 생각합니다.',fact1:'핵산 치료제 연구',fact2:'질환 모델 기반 평가',fact3:'중개 연구 및 데이터 분석',
+    researchTitle:'연구 프로젝트',researchIntro:'공개 가능한 범위에서 정리한 주요 연구 분야와 담당 업무입니다.',p1cat:'핵산 기반 치료제',p1title:'Antisense Oligonucleotide Research',p1desc:'miRNA 표적 ASO의 세포 수준 활성 및 질환 관련 표현형을 평가하고, 실험 데이터를 기반으로 치료 가능성을 탐색했습니다.',p2cat:'저분자 후보물질 평가',p2title:'Signaling Pathway Modulation',p2desc:'신호전달 경로 조절 후보물질의 세포 기반 활성을 reporter assay, 유전자 발현 및 단백질 분석으로 평가했습니다.',p3cat:'올리고뉴클레오타이드 플랫폼',p3title:'RNA-Targeting Platform Evaluation',p3desc:'올리고뉴클레오타이드의 설계 변수에 따른 표적 억제 활성을 비교하고, 구조–활성 관계를 평가했습니다.',p4cat:'골관절염 중개 연구',p4title:'Osteoarthritis Disease Models',p4desc:'연골세포 및 골관절염 모델에서 질환 관련 분자 지표와 표현형을 분석하고 실험 설계 및 효능 평가에 참여했습니다.',
+    skillsTitle:'연구 기술',skillsIntro:'실험 수행부터 데이터 해석 및 과학적 커뮤니케이션까지.',s1title:'세포 및 분자생물학',s2title:'기능 및 표현형 분석',s3title:'비임상 연구',s4title:'연구 문서 및 커뮤니케이션',
+    outputsTitle:'논문 및 지식재산',outputsIntro:'공개된 서지 정보만 추가할 수 있도록 구성한 영역입니다.',pubTitle:'학술 논문',pubDesc:'공개된 논문의 제목, 학술지, 연도, DOI를 이곳에 추가하세요.',ipTitle:'특허 및 IP',ipDesc:'공개된 특허의 명칭, 공개번호, 기여 내용을 이곳에 추가하세요.',verify:'공개 정보 확인 후 업데이트',
+    contactTitle:'새로운 연구의<br><em>연결을 기다립니다.</em>',contactDesc:'연구 협업 및 전문적인 교류에 관한 문의를 환영합니다.',emailLabel:'tmdgus1227@gmail.com',githubLabel:'https://github.com/shxlshhhh',linkedinLabel:'https://www.linkedin.com/in/shxlsh/',rights:'All rights reserved.',backTop:'맨 위로 ↑'
   },
   en: {
     skip:'Skip to content',navAbout:'Overview',navResearch:'Research',navSkills:'Technology',navOutputs:'Publications & IP',navContact:'Contact',
