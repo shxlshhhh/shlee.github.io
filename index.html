@@ -1,12 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ko">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Biomedical R&D researcher portfolio — nucleic acid therapeutics, osteoarthritis, and translational research." />
+  <meta name="theme-color" content="#081b29" />
+  <title>SH Lee | Biomedical Research Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <p>Hello, World!</p>
+  <a class="skip-link" href="#main" data-i18n="skip">본문으로 이동</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="SH Lee home"><span class="brand-symbol">✳</span> SH<span class="brand-dot">.</span>LEE</a>
+      <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about" data-i18n="navAbout">소개</a>
+        <a href="#research" data-i18n="navResearch">연구</a>
+        <a href="#skills" data-i18n="navSkills">기술</a>
+        <a href="#outputs" data-i18n="navOutputs">연구 성과</a>
+        <a href="#contact" data-i18n="navContact">연락처</a>
+        <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language">EN <span aria-hidden="true">↗</span></button>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-grid wrap">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="live-dot"></span><span data-i18n="heroEyebrow">BIOMEDICAL RESEARCH · PORTFOLIO</span></div>
+          <h1 data-i18n-html="heroTitle">생물학적 발견을<br><em>치료 가능성</em>으로.</h1>
+          <p class="hero-description" data-i18n="heroDesc">핵산 치료제와 골관절염 연구를 중심으로, 분자 수준의 가설을 실험적 근거로 연결하는 바이오의약품 연구자입니다.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#research"><span data-i18n="explore">연구 살펴보기</span><span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="#contact" data-i18n="contactMe">연락하기</a></div>
+          <div class="hero-tags"><span>RNA Therapeutics</span><span>Osteoarthritis</span><span>Translational R&D</span></div>
+        </div>
+        <div class="hero-art reveal" aria-hidden="true">
+          <div class="art-grid"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+          <svg class="molecule" viewBox="0 0 520 520" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="helix" x1="100" y1="60" x2="450" y2="460" gradientUnits="userSpaceOnUse"><stop stop-color="#5ef3c7"/><stop offset="1" stop-color="#6fa8ff"/></linearGradient></defs><path d="M170 65 C430 130 100 260 355 450" stroke="url(#helix)" stroke-width="7" stroke-linecap="round"/><path d="M355 65 C95 130 425 260 170 450" stroke="#477ea7" stroke-width="7" stroke-linecap="round"/><g stroke="#a8e8e6" stroke-width="3" opacity=".65"><path d="M181 91L341 91"/><path d="M223 121L302 121"/><path d="M257 153L266 153"/><path d="M273 185L248 185"/><path d="M267 220L256 220"/><path d="M244 257L279 257"/><path d="M222 295L303 295"/><path d="M211 332L315 332"/><path d="M228 369L297 369"/><path d="M272 408L252 408"/></g><g fill="#7ff6cf"><circle cx="170" cy="65" r="9"/><circle cx="355" cy="450" r="9"/></g></svg>
+          <div class="art-label art-label-top"><span class="small-label">RESEARCH FOCUS</span><strong>RNA / ASO</strong></div><div class="art-label art-label-bottom"><span class="small-label">DISCIPLINE</span><strong>Biomedical R&D</strong></div>
+          <span class="art-index">FIG. 01 / MOLECULAR SCIENCE</span>
+        </div>
+      </div>
+      <div class="hero-bottom wrap"><span data-i18n="scroll">스크롤하여 더 알아보기</span><span aria-hidden="true">↓</span></div>
+    </section>
+    <section class="section about-section" id="about"><div class="wrap section-grid"><div class="section-aside"><span class="section-num">01 / ABOUT</span><h2 data-i18n="aboutTitle">연구 소개<span class="accent">.</span></h2></div><div class="section-main reveal"><p class="lead" data-i18n="aboutLead">기초 생물학적 질문에서 출발해, 실험 모델 구축과 효능 검증을 거쳐 치료 전략의 가능성을 탐색합니다.</p><p class="muted" data-i18n="aboutBody">세포 기반 기능 평가, 분자생물학적 분석, 동물 질환 모델, 데이터 해석 및 과학 문서 작성에 걸친 연구 경험을 보유하고 있습니다. 연구의 재현성과 명확한 근거 제시를 중요하게 생각합니다.</p><div class="fact-row"><div><strong>01</strong><span data-i18n="fact1">핵산 치료제 연구</span></div><div><strong>02</strong><span data-i18n="fact2">질환 모델 기반 평가</span></div><div><strong>03</strong><span data-i18n="fact3">중개 연구 및 데이터 분석</span></div></div></div></div></section>
+    <section class="section research-section" id="research"><div class="wrap"><div class="section-heading"><div><span class="section-num">02 / SELECTED WORK</span><h2 data-i18n="researchTitle">연구 프로젝트<span class="accent">.</span></h2></div><p data-i18n="researchIntro">공개 가능한 범위에서 정리한 주요 연구 분야와 담당 업무입니다.</p></div><div class="project-grid">
+      <article class="project-card reveal"><div class="project-top"><span>01 / NUCLEIC ACIDS</span><span class="project-icon">↗</span></div><div class="project-visual visual-rna"><span class="visual-figure">RNA</span><span class="visual-sub">TARGETED THERAPEUTICS</span></div><div class="project-body"><span class="project-category" data-i18n="p1cat">핵산 기반 치료제</span><h3 data-i18n="p1title">Antisense Oligonucleotide Research</h3><p data-i18n="p1desc">miRNA 표적 ASO의 세포 수준 활성 및 질환 관련 표현형을 평가하고, 실험 데이터를 기반으로 치료 가능성을 탐색했습니다.</p><div class="pill-row"><span>ASO</span><span>qRT-PCR</span><span>In vitro / In vivo</span></div></div></article>
+      <article class="project-card reveal"><div class="project-top"><span>02 / SMALL MOLECULES</span><span class="project-icon">↗</span></div><div class="project-visual visual-signal"><span class="visual-figure">WNT</span><span class="visual-sub">SIGNAL TRANSDUCTION</span></div><div class="project-body"><span class="project-category" data-i18n="p2cat">저분자 후보물질 평가</span><h3 data-i18n="p2title">Signaling Pathway Modulation</h3><p data-i18n="p2desc">신호전달 경로 조절 후보물질의 세포 기반 활성을 reporter assay, 유전자 발현 및 단백질 분석으로 평가했습니다.</p><div class="pill-row"><span>Reporter Assay</span><span>Western Blot</span><span>Cell Models</span></div></div></article>
+      <article class="project-card reveal"><div class="project-top"><span>03 / RNA PLATFORM</span><span class="project-icon">↗</span></div><div class="project-visual visual-platform"><span class="visual-figure">miR</span><span class="visual-sub">OLIGONUCLEOTIDE DESIGN</span></div><div class="project-body"><span class="project-category" data-i18n="p3cat">올리고뉴클레오타이드 플랫폼</span><h3 data-i18n="p3title">RNA-Targeting Platform Evaluation</h3><p data-i18n="p3desc">올리고뉴클레오타이드의 설계 변수에 따른 표적 억제 활성을 비교하고, 구조–활성 관계를 평가했습니다.</p><div class="pill-row"><span>Structure–Activity</span><span>miRNA</span><span>Data Analysis</span></div></div></article>
+      <article class="project-card reveal"><div class="project-top"><span>04 / TRANSLATIONAL R&D</span><span class="project-icon">↗</span></div><div class="project-visual visual-oa"><span class="visual-figure">OA</span><span class="visual-sub">DISEASE MODELING</span></div><div class="project-body"><span class="project-category" data-i18n="p4cat">골관절염 중개 연구</span><h3 data-i18n="p4title">Osteoarthritis Disease Models</h3><p data-i18n="p4desc">연골세포 및 골관절염 모델에서 질환 관련 분자 지표와 표현형을 분석하고 실험 설계 및 효능 평가에 참여했습니다.</p><div class="pill-row"><span>Chondrocytes</span><span>Histology</span><span>Preclinical</span></div></div></article>
+    </div></div></section>
+    <section class="section skills-section" id="skills"><div class="wrap section-grid"><div class="section-aside"><span class="section-num">03 / EXPERTISE</span><h2 data-i18n="skillsTitle">연구 기술<span class="accent">.</span></h2><p class="muted aside-note" data-i18n="skillsIntro">실험 수행부터 데이터 해석 및 과학적 커뮤니케이션까지.</p></div><div class="skill-groups reveal"><div class="skill-group"><div class="skill-icon">01</div><div><h3 data-i18n="s1title">Cell & Molecular Biology</h3><p>Primary cell culture · Mammalian cell culture · Transfection · qRT-PCR · Western blot · Luciferase reporter assay</p></div></div><div class="skill-group"><div class="skill-icon">02</div><div><h3 data-i18n="s2title">Functional & Phenotypic Assays</h3><p>Cell viability · Flow cytometry · Senescence assays · Gene expression profiling · Histological analysis</p></div></div><div class="skill-group"><div class="skill-icon">03</div><div><h3 data-i18n="s3title">Preclinical Research</h3><p>Osteoarthritis models · In vivo efficacy assessment · Tissue processing · Immunohistochemistry</p></div></div><div class="skill-group"><div class="skill-icon">04</div><div><h3 data-i18n="s4title">Research Communication</h3><p>Experimental design · Statistical analysis · Scientific figures · Manuscript preparation · Patent documentation</p></div></div></div></div></section>
+    <section class="section outputs-section" id="outputs"><div class="wrap"><div class="section-heading"><div><span class="section-num">04 / RESEARCH OUTPUTS</span><h2 data-i18n="outputsTitle">논문 및 지식재산<span class="accent">.</span></h2></div><p data-i18n="outputsIntro">공개된 서지 정보만 추가할 수 있도록 구성한 영역입니다.</p></div><div class="output-grid"><div class="output-card reveal"><span class="output-mark">↗</span><span class="output-type">PUBLICATIONS</span><h3 data-i18n="pubTitle">학술 논문</h3><p data-i18n="pubDesc">공개된 논문의 제목, 학술지, 연도, DOI를 이곳에 추가하세요.</p><span class="coming" data-i18n="verify">공개 정보 확인 후 업데이트</span></div><div class="output-card reveal"><span class="output-mark">◇</span><span class="output-type">INTELLECTUAL PROPERTY</span><h3 data-i18n="ipTitle">특허 및 IP</h3><p data-i18n="ipDesc">공개된 특허의 명칭, 공개번호, 기여 내용을 이곳에 추가하세요.</p><span class="coming" data-i18n="verify">공개 정보 확인 후 업데이트</span></div></div></div></section>
+    <section class="contact-section" id="contact"><div class="wrap contact-inner reveal"><div><span class="section-num">05 / CONTACT</span><h2 data-i18n-html="contactTitle">새로운 연구의<br><em>연결을 기다립니다.</em></h2><p data-i18n="contactDesc">연구 협업 및 전문적인 교류에 관한 문의를 환영합니다.</p></div><div class="contact-links"><a id="email-link" href="mailto:YOUR_EMAIL@example.com"><span>Email</span><strong data-i18n="emailLabel">이메일 주소 설정하기</strong><span>↗</span></a><a id="github-link" href="https://github.com/" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong data-i18n="githubLabel">프로필 링크 설정하기</strong><span>↗</span></a><a id="linkedin-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong data-i18n="linkedinLabel">프로필 링크 설정하기</strong><span>↗</span></a></div></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> SH Lee. <span data-i18n="rights">All rights reserved.</span></span><a href="#home" data-i18n="backTop">맨 위로 ↑</a></div></footer>
 </body>
 </html>
